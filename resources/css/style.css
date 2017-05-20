@@ -52,3 +52,8 @@ p {
 .column-large {
   width: 630px;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+
+}

@@ -24,6 +24,7 @@
 .header li {
   display: inline-block;
   list-style: none;
+  margin: 10px;
 
 }
 
@@ -35,16 +36,19 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
+
     padding: 10px 10px 10px 30px;
     color: mediumaquamarine;
     flex-grow: 2;
   }
 
 #header-title {
-  padding-left: 10px;
+  margin: 15px;
 }
 p {
   font-size: 17px;
   display: block;
+}
+.column-large {
+  width: 630px;
 }

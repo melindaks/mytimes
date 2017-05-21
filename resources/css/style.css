@@ -44,7 +44,6 @@
 
 #header-title {
   margin-left: 15px;
-  position: relative;
 }
 p {
   font-size: 17px;
@@ -56,23 +55,22 @@ div {
 .content:{
   display: flex;
 }
-.columns {
+.content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-right: 32px;
 }
-.columns column-large {
+.column-large {
   width: 630px;
   border: 1px solid black;
   display: inline-block;
   vertical-align: top;
 }
 
-.columns column-medium {
+.column-medium {
   width: 300px;
-  display: inline-flex;
+  display: inline-block;
   vertical-align: top;
 }
 .column-small {
